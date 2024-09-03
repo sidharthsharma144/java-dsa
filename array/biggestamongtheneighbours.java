@@ -8,8 +8,11 @@ public class biggestamongtheneighbours {
         for (int i=0;i<size;i++){
             arr[i]=sc.nextInt();
         }
+        int max=0;
         for (int i=0;i<size;i++){
-            
+            if(arr[i]<max && arr[i+2]>max){
+
+            }
         }
         }
 }

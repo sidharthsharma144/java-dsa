@@ -10,6 +10,6 @@ public class FormattedOutput43 {
                 count =count+1;
             }
         }
-        System.out.println(count);
+        System.out.println("the number of spaces are:"+count);
     }
 }

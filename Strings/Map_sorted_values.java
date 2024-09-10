@@ -16,6 +16,6 @@ public class Map_sorted_values {
         list.sort(Map.Entry.comparingByValue());
 
         for(Map.Entry<Character, Integer> entry : list){
-            System.out.println(entry.getKey() + ": " + entry.getValue()); 
+            System.out.println(entry.getKey() + ": " + entry.getValue());
 }}
 }

@@ -32,6 +32,6 @@ public class LongestCommonPrefix {
             System.out.println("No common prefix.");
         }
         
-        sc.close();
+        sc.close()
     }
 }

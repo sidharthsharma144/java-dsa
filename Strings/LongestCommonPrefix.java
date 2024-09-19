@@ -25,7 +25,7 @@ public class LongestCommonPrefix {
 
         int i = 0;
         // Compare the characters of first and last strings
-        while (i < min && firstString.charAt(i) == lastString.charAt(i)) {
+        while (i < min && firstString.charAt(i) == lastString.charAt(i)) {}
             i++;
         }
 

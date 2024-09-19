@@ -36,6 +36,6 @@ public class LongestCommonPrefix {
         }
 
         // Print the longest common prefix
-        System.out.println("The longest common prefix: " + firstString.substring(0, i));
+        System.out.println("The longest common prefix: " + firstString.substring(0, i))
     }
 }

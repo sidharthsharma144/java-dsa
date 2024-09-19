@@ -31,7 +31,7 @@ public class LongestCommonPrefix {
 
         // If no common prefix, return -1
         if (i == 0) {
-            System.out.println("-1");
+            System.out.println("-1")
             return;
         }
 

@@ -7,7 +7,7 @@ public class LargestNumber {
         for (int i = 0; i < nums.length; i++) {
             strNums[i] = Integer.toString(nums[i]);
         }
-        
+
         // Sort the string array with a custom comparator
         Arrays.sort(strNums, (a, b) -> (b + a).compareTo(a + b));
 
@@ -20,7 +20,7 @@ public class LargestNumber {
             largestNum.append(num);
         }
 
-        return largestNum.toString();
+        return largestNum.toString()
     }
 
     public static void main(String[] args) {

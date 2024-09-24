@@ -29,5 +29,6 @@ public class LargestNumber {
         System.out.println(ln.largestNumber(nums1)); // Output: "210"
         int[] nums2 = {3, 30, 34, 5, 9};
         System.out.println(ln.largestNumber(nums2)); // Output: "9534330"
+        sc.close();
     }
 }

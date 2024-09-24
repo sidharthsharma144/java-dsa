@@ -20,7 +20,7 @@ public class LargestNumber {
             largestNum.append(num);
         }
 
-        return largestNum.toString()
+        return largestNum.toString();
     }
 
     public static void main(String[] args) {

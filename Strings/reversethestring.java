@@ -1,4 +1,3 @@
-package strings;
 import java.util.Scanner;
 public class reversethestring {
     public static void main(String[] args){

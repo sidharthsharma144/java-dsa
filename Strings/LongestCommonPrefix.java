@@ -1,5 +1,3 @@
-package strings;
-
 import java.util.Arrays;  // Import Arrays for sorting
 
 public class LongestCommonPrefix {

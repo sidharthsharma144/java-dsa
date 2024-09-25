@@ -1,7 +1,7 @@
 import java.util.*;
 
-public class LargestNumber {
-    public String largestNumber(int[] nums) {
+public class largestnumber {
+    public String largest(int[] nums) {
         // Convert the integer array to a string array using Integer.toString()
         String[] strNums = new String[nums.length];
         for (int i = 0; i < nums.length; i++) {
@@ -15,6 +15,7 @@ public class LargestNumber {
         if (strNums[0].equals("0")) {
             return "0";
         }
+
         StringBuilder largestNum = new StringBuilder();
         for (String num : strNums) {
             largestNum.append(num);
@@ -24,11 +25,10 @@ public class LargestNumber {
     }
 
     public static void main(String[] args) {
-        LargestNumber ln = new LargestNumber();
+        largestnumber ln = new largestnumber();
         int[] nums1 = {10, 2};
-        System.out.println(ln.largestNumber(nums1)); // Output: "210"
+        System.out.println(ln.largest(nums1)); // Output: "210"
         int[] nums2 = {3, 30, 34, 5, 9};
-        System.out.println(ln.largestNumber(nums2)); // Output: "9534330"
-        sc.close();;
+        System.out.println(ln.largest(nums2)); // Output: "9534330"
     }
 }

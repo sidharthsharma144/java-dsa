@@ -31,6 +31,6 @@ class allpalindrome {
         Scanner sc=new Scanner(System.in);
         String str=sc.nextLine();
 
-        allPallindromicString(str);;;;;
+        allPallindromicString(str);;;;
     }
 }

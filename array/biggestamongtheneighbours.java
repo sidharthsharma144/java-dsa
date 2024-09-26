@@ -30,5 +30,7 @@ public class biggestamongtheneighbours {
         }
 
         System.out.println("The biggest element among the neighbors is: " + max);
+        System.out.println(arr[0]);
+        
     }
 }

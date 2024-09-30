@@ -13,6 +13,6 @@ public class bigges{
             stringList.add(randomString);
         }
         Collections.sort(stringList, Collections.reverseOrder());
-        System.out.println(stringList);
+        System.out.println(stringList);;;;;;;;;;;
     }
 }

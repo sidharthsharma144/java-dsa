@@ -19,7 +19,7 @@ public class checksortedarray {
             System.out.println("yes sorted");
         }
         else{
-            System.out.println("not sorted");;
+            System.out.println("not sorted");
         }
     }
 }

@@ -28,7 +28,7 @@ public class OptimizedPrimeNumbers {
         for (int p = 3; p <= n; p += 2) {
             if (isPrime[p]) {
                 count++;
-                System.out.print(p +" ");;;;;;;;;;;
+                System.out.print(p +" ");;;;;;;;;;
             }
         }
         

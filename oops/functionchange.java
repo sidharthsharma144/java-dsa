@@ -2,15 +2,16 @@
 public class functionchange {
 
     public static class Cars{
-        public String name;
+        private  String name;
         public String model;
         public double speed;
+        public double price;
     }
 
-    public static void update(Cars a){
-        a.name="mercedes";
+    // public static void update(Cars a){
+    //     a.name="mercedes";
    
-    }
+    // }
     public static void main(String[] args){
         Cars s=new Cars();
 
@@ -18,9 +19,11 @@ public class functionchange {
         s.model="B3";
         s.speed=394.4;
         
+        
         System.out.println(s.name);
-        update(s);
+        // update(s);
         System.out.println(s.name);
+        System.out.println(s.price);;;;;;;
 
 
 

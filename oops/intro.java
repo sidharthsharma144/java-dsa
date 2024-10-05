@@ -12,6 +12,7 @@ public class intro{
         a.name="sidharth";
         a.roll=79;
         a.percentage=74;
-        System.out.println(a.roll); 
+        a.name="shru";
+        System.out.println(a.name); 
     }
 }

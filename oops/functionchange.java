@@ -23,7 +23,7 @@ public class functionchange {
         System.out.println(s.name);
         // update(s);
         System.out.println(s.name);
-        System.out.println(s.price);;
+        System.out.println(s.price);;;;
 
 
 

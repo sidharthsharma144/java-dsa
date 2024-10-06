@@ -1,5 +1,5 @@
 //OBJECTS ARE INSTANCE OF CLASS
-public class intro{
+public class copyconstructer{
     public static class Student{
     
     public String name;
@@ -13,6 +13,10 @@ public class intro{
         this.name=name;
         this.roll=roll;   
     }
+    Student(Student s2){  //non parameterized constructer
+        this.name=s2.name;
+        this.roll=s2.roll;   
+    }
     }
     public static void main(String[] args) {
         
@@ -21,5 +25,10 @@ public class intro{
         // a.roll=79;
         // a.percentage=74;
         System.out.println(a.name); 
+
+        Student s2=new Student(a); 
+
+        System.out.println(s2.name); 
+
     }
 }

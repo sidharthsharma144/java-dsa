@@ -20,5 +20,7 @@
         t1.color="red";
         System.out.println(t1.color);
         t1.area(5,5);
+        Circle c1= new Circle();
+        c1.area(3,5);
     }
 }

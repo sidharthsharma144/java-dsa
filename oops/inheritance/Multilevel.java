@@ -2,7 +2,7 @@
 public class Multilevel {
     public static class Animal{
         public String name;
-        public String type;;
+        public String type;
     }
     public static class Mammal extends Animal{
         public void language(){

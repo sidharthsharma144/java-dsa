@@ -2,15 +2,15 @@
 public class intro{
     public static class Student{
     
-    public String name;
+    public String Name;
     public double percentage;
     public int roll;
 
     // Student(){  //non parameterized constructer
     //     System.out.println("constructer called");
     // }
-    Student(String name, int roll){  //non parameterized constructer
-        this.name=name;
+    Student(String name, int roll){  //parameterized constructer
+        this.Name=name;
         this.roll=roll;   
     }
     }
@@ -20,6 +20,6 @@ public class intro{
         // a.name="sidharth";
         // a.roll=79;
         // a.percentage=74;
-        System.out.println(a.name); 
+        System.out.println(a.Name); 
     }
 }

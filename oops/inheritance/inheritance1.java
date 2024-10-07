@@ -1,5 +1,4 @@
-
-    class Shape{
+class Shape{
         String color;
         double area;
     }
@@ -21,6 +20,8 @@
         System.out.println(t1.color);
         t1.area(5,5);
         Circle c1= new Circle();
-        c1.area(3,5);;;;;;;;;;;;;;;;
+        c1.color="blue";
+        c1.area(3,5);
+        System.out.println(c1.color);
     }
 }

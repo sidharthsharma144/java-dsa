@@ -20,7 +20,7 @@ public class maximumdigitsum {
         int [] a=new int[size];
         int [] b=new int [size];
         for(int i=0;i<size;i++){
-            a[i]=arr[size-i];;;;;;
+            a[i]=arr[size-i];;;;;
         }
     }
 }

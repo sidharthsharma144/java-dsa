@@ -19,7 +19,7 @@ public class justgreater {
             }
             if(arr[mid]<target){
                 end=mid-1;
-                mid=(start+end)/2;;
+                mid=(start+end)/2;
             }
         }
     }

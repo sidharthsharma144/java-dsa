@@ -11,7 +11,7 @@ public class balancingscale {
         int[] right = new int[size];
         for(int i=0;i<size-1;i++){
             sum+=arr[i];
-            right[i]=sum;;;;;;;;;
+            right[i]=sum;;;;;;;;
 
         }
 

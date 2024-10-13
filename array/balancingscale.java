@@ -63,8 +63,8 @@ public class balancingscale {
         //         c=i;
         //     }.
         // }
-        // System.out.println("ans is "+c);
+        // System.out.println("ans is "+c);;
 
         
     };
-}
+};;;;;;;;;;;;

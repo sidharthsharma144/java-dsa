@@ -66,6 +66,6 @@ public class balancingscale {
         // System.out.println("ans is "+c);;
 
         
-    };;;;;;;;;;;;
+    };;;;;;;;;;;
 }
 

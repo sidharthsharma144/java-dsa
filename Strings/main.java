@@ -1,5 +1,4 @@
-package strings;
-
+import java.util.*;
 class Question {
     // Method should return int, not void
     public int shortestDistance(String[] s, String word1, String word2) {

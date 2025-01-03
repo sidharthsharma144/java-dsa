@@ -10,7 +10,7 @@ public class fibonacci {
         Scanner sc=new Scanner(System.in);
         int number=sc.nextInt();
         fiboseries(number);
-        sc.close();;;;;;;;;
+        sc.close();;;;;;;;
     }
     
 }

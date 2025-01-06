@@ -28,7 +28,7 @@ public class copyconstructer{
 
         Student s2=new Student(a); 
 
-        System.out.println(s2.name);;;;;;;;;;;
+        System.out.println(s2.name);;;;;;;;;;
 
     }
 }
